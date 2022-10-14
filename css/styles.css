@@ -1,0 +1,7 @@
+.navigation {
+    background: black;
+  }
+  
+  .highlighted {
+    border: 2px dashed red;
+  }
