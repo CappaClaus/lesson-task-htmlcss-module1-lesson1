@@ -30,13 +30,23 @@
 }
 
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: roboto, sans-serif;
   }
 
-
   h1,h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-family: bootsandspurs, sans-serif;
+  }
+  p {
+    font-family: roboto, Verdana, sans-serif;
+  }
+
+  @font-face {
+    font-family: bootsandspurs;
+    src: url(/fonts/BootsAndSpurs.ttf);
+  }
+  @font-face {
+    font-family: roboto;
+    src: url(https://fonts.google.com/specimen/Roboto);
   }
 
 
@@ -55,3 +65,29 @@
     text-decoration: underline;
   }
 
+
+  .infoguitar {
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 20%;
+  }
+  .review {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+  }
+  .product {
+    max-width: 350px;
+    max-height: 350px;
+  }
+  img {
+    width: 100%;
+  }
+  
+  .homep {
+    background-image: url(/images/home-header1.png);
+    min-height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
