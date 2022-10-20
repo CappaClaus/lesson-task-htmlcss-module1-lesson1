@@ -91,3 +91,28 @@
     background-repeat: no-repeat;
     background-position-x: right;
   }
+
+  .form__input {
+    display: block;
+  }
+
+  .ask__input
+  {
+    display: block;
+    width: 250px;
+    height: 150px;
+  }
+
+  .sendin {
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+  }
+
+  input,
+  select,
+  textarea {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+  }
