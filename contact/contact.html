@@ -20,12 +20,11 @@
             </nav>
         </section>
     </header>
-    <main>
+    <main class="contact">
         <h1>Contact</h1>
-        <section>
-            <form>
-                <div class="container2">
-                    <div class="form">
+            <form method="post">
+                <div class="form-wrapper">
+                <section>
                         <label for="name">Full Name</label>
                         <input type="text" name="name" id="name" class="form__input">
                         <label for="email">Email</label>
@@ -37,17 +36,18 @@
                                 <option value="adirondack-red">Adirondack Red</option>
                                 <option value="adirondack-red">Adirondack Red</option>
                             </select>
+                            <div>
                         <input type="checkbox" name="email-updates" id="email-updates" >
                         <label for="email-updates">Sign up for email updates </label>
-                    </div>
-                <div class="form2">
+                            </div>
+                </section>
+                <section>
                     <label for="message">Message</label>
                     <textarea name="message" id="message"></textarea>
-                </div>
+                </section>
+                    </div>
                     <input type="submit" value="Send Now" class="sendin">
-                </div>
             </form>            
-        </section>
     </main>
     <footer class="navigation white">
         Copyright &copy;
