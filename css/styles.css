@@ -366,3 +366,24 @@
     padding: 10px;
     text-align: center;
   }
+
+ /*mobile*/
+ @media only screen and (max-width: 480px) {
+  body {
+    width: 320px;
+    font-size: .5em;
+  }
+  img {
+    width: 60%;
+    height: 60%;
+  }
+ }
+
+  /*tablet*/
+  @media only screen and (min-width:481px) and (max-width: 768px) {
+    body {
+      width: 80%;
+      font-size: 0.9em;
+      padding: 10px;
+  }
+}
